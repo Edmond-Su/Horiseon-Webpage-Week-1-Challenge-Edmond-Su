@@ -1,56 +1,53 @@
-/* */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /* Setting the box sizing to be the same size as the border*/
+    padding: 0; /*Setting default element margin size to 0 */
+    margin: 0; /*Setting default element margin size to 0 */
 }
-/* */
+
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*Setting the background color of the element to white */
 }
 
 header {
-    padding: 20px; /* Added a 20px padding around the header element*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Defined the font family for the header text */
-    background-color: #2a607c; /*  */
-    color: #ffffff;
+    padding: 20px; /* Setting the element padding to 20px */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Setting the font family for the element text */
+    background-color: #2a607c; /* Setting the background color of the element to dark blue */
+    color: #ffffff; /*Setting the color of element text to white */
 }
-/* Making the header font size 58px and display inline with other elements*/
+
 h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Setting the element to display inline with other elements */
+    font-size: 48px; /*Setting the element font size to 48px */
 }
-/* Making the seo section of the header a light grey*/
+
 h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Setting the seo class of the header a light grey */
 }
-/* Defining the size of the padding to the top and margin to the right of the nav element.
-Making the nav element float on the right side of the header
-Setting the font family and font size */
+
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /*Setting the top padding to 15px */
+    margin-right: 20px; /*Setting the right side margin to 20px */
+    float: right; /*Setting the element to float on the right side */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Setting the element font family for the element text */
+    font-size: 20px; /*Setting the element font size to 20px */
 }
 
 ul {
-    list-style-type: none; /*Setting the list to have no style type */
+    list-style-type: none; /* Setting the list to have no style type */
 }
 
 li {
-    display: inline-block; /*Setting all list items to display inline*/
-    margin-left: 25px; /*Added a 25px wide margin to the left of all list items*/
+    display: inline-block; /*Setting the element to display inline with other elements */
+    margin-left: 25px; /*Setting the left margin to 25px */
 }
 
 a {
-    color: #ffffff; /* Making all the anchor text to always be white */
-    text-decoration: none; /* Removing all text decoration to the anchor text*/
+    color: #ffffff; /* Setting the element text to white */
+    text-decoration: none; /* Removing all text decoration to the anchor text */
 }
 
 p {
-    font-size: 16px; /* Setting all the p element font size to be 16px tall*/
+    font-size: 16px; /* Setting all the p element font size to 16px */
 }
 
 #hero {
