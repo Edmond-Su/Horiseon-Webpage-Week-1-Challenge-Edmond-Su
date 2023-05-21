@@ -1,30 +1,33 @@
+/* */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+header {
+    padding: 20px; /* Added a 20px padding around the header element*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Defined the font family for the header text */
+    background-color: #2a607c; /*  */
     color: #ffffff;
 }
-
-.header h1 {
+/* Making the header font size 58px and display inline with other elements*/
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Making the seo section of the header a light grey*/
+h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* Defining the size of the padding to the top and margin to the right of the nav element.
+Making the nav element float on the right side of the header
+Setting the font family and font size */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,50 +35,69 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+ul {
+    list-style-type: none; /*Setting the list to have no style type */
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+li {
+    display: inline-block; /*Setting all list items to display inline*/
+    margin-left: 25px; /*Added a 25px wide margin to the left of all list items*/
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Making all the anchor text to always be white */
+    text-decoration: none; /* Removing all text decoration to the anchor text*/
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /* Setting all the p element font size to be 16px tall*/
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+#hero {
+    margin-bottom: 25px; /* Added a 25px high margin to the bottom of the hero section*/
 }
 
+#hero img {
+    height: 800px; /*Setting the height of the hero img element to be 800px */
+    width: 100%; /*Setting the width of the hero img element to be 100% of the window width*/
+    object-fit: cover; /*Telling the hero img element how to fit in the window */
+}
+
+main {
+    width: 75%; /*Defining the width of the main element to be 75% of the window width*/
+    display: inline-block; /*Setting this element to display inline with other elements */
+    margin-left: 20px; /*Added a 25px margin to the left side of the element */
+}
+/* */
+.main-subsections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* */
+.main-subsections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* */
+.main-subsections img {
+    max-height: 200px;
+}
+/* */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+/* */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,48 +107,30 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-subsections {
+/* */
+.aside-subsections {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-subsections h3 {
+/* */
+.aside-subsections h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-subsections img {
+/* */
+.aside-subsections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.content-subsections {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-subsections img {
-    max-height: 200px;
-}
-
-.content-subsections h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* */
+footer h2 {
     font-size: 20px;
 }
