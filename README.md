@@ -9,6 +9,7 @@ The purpose of this project was to gain experience of possible real world on the
 N/A
 
 ## Usage
+Link to the webpage: https://deverstater07.github.io/Horiseon-Webpage-Week-1-Challenge-Edmond-Su/
 
 ![Webpage Screenshot](assets/images/Webpage-Screenshot.png)
 
