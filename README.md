@@ -10,9 +10,8 @@ N/A
 
 ## Usage
 
-```md
 ![Webpage Screenshot](assets/images/Webpage-Screenshot.png)
-```
+
 Navigation buttons are in the top right along the header bar. Left click on which section you would like to goto.
 
 ## Credits
