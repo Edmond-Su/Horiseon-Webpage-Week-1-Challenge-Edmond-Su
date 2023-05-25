@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #d9dcd6; /*Setting the background color of the element to white */
+    background-color: #d9dcd6; /*Setting the background colour of the element to white */
 }
 
 header {
     padding: 20px; /* Setting the element padding to 20px */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Setting the font family for the element text */
-    background-color: #2a607c; /* Setting the background color of the element to dark blue */
-    color: #ffffff; /*Setting the color of element text to white */
+    background-color: #2a607c; /* Setting the background colour of the element to dark blue */
+    color: #ffffff; /*Setting the colour of element text to white */
 }
 
 h1 {
@@ -27,8 +27,8 @@ h1 .seo {
 nav {
     padding-top: 15px; /*Setting the top padding to 15px */
     margin-right: 20px; /*Setting the right side margin to 20px */
-    float: right; /*Setting the element to float on the right side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Setting the element font family for the element text */
+    float: right; /*Setting the nav element to float on the right side */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Setting the font family for the text inside the nav element */
     font-size: 20px; /*Setting the element font size to 20px */
 }
 
@@ -37,13 +37,13 @@ ul {
 }
 
 li {
-    display: inline-block; /*Setting the element to display inline with other elements */
-    margin-left: 25px; /*Setting the left margin to 25px */
+    display: inline-block; /*Setting the list element to display inline with other elements */
+    margin-left: 25px; /*Added a 25px margin to the left of each list element */
 }
 
 a {
-    color: #ffffff; /* Setting the element text to white */
-    text-decoration: none; /* Removing all text decoration to the anchor text */
+    color: #ffffff; /* Setting the anchor element text to white */
+    text-decoration: none; /* Removing all text decoration on the anchor text */
 }
 
 p {
@@ -65,69 +65,69 @@ main {
     display: inline-block; /*Setting this element to display inline with other elements */
     margin-left: 20px; /*Added a 25px margin to the left side of the element */
 }
-/* */
+
 .main-subsections {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Setting a 20px margin at the bottom of each main subsection */
+    padding: 50px; /* Setting a 50px padding to each main subsection*/
+    height: 300px; /* Setting the height of each main subsection to 300px*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Setting the font family for the main subsections*/
+    background-color: #0072bb; /* Setting the background colour of the main subsection element to blue*/
+    color: #ffffff; /* Setting the text colour for the main subsections to white*/
 }
-/* */
+
 .main-subsections h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /* Added a 20px margin to the bottom of the main subsection headers*/
+    font-size: 36px; /* Setting the main subsection header font size to 36px*/
 }
-/* */
+
 .main-subsections img {
-    max-height: 200px;
+    max-height: 200px; /* Setting the max height from the images inside the main subsections*/
 }
-/* */
+
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Setting anything with the float left class to float left*/
+    margin-right: 25px; /* Adding a margin to the right of elements with the float left class*/
 }
-/* */
+
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Setting anything with the float right class to float right*/
+    margin-left: 25px; /* Adding a margin to the left of elements with the float right class*/
 }
-/* */
+
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px; /* Adding a 20px margin to the right of the aside element */
+    padding: 20px; /* Added a 20px padding to the aside element*/
+    clear: both; /* Setting the aside element to move below and not overlap elements on either side of itself*/
+    float: right; /* Setting the aside element to float right */
+    width: 20%; /* Setting the aside element to be 20% of the available width*/
+    height: auto; /* Setting the aside element to be 100% of the available height*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Setting the font family for the aside element */
+    background-color: #2589bd; /* Setting the background colour of the aside element to blue */
 }
-/* */
+
 .aside-subsections {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /* Added a 32px margin to the bottom of each aside subsection*/
+    color: #ffffff; /* Setting the aside element text colour to white*/
 }
-/* */
+
 .aside-subsections h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px; /* Added a 10px margin to the bottom of each aside subsection header */
+    text-align: center; /* Aligning the aside subsection header to be centred*/
 }
-/* */
+
 .aside-subsections img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block; /* Setting each aside subsection image to display with a block box*/
+    margin: 10px auto; /* Added a 10px margin to the top and bottom of each aside subsection image*/
+    max-width: 150px; /* Setting the max width of each aside subsection image to 150px*/
 }
-/* */
+
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /* Added a 30px padding around the footer */
+    clear: both; /* Setting the footer to move below and not overlap elements on either side of itself*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Setting the font family for the footer */
+    text-align: center; /* Aligning the footer text to be centred*/
 }
-/* */
-footer h2 {
-    font-size: 20px;
+
+footer h4 {
+    font-size: 20px; /* Setting the footer header font size to 20px*/
 }
